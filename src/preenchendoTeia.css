@@ -44,3 +44,91 @@
             background-color: rgba(2, 2, 124, 0.603);
             color: white;
         }
+        
+        #comunicativa1 {
+            background-color: rgb(3, 54, 66);
+            color: white;
+        }
+        
+        #comunicativa2 {
+            background-color: rgba(3, 54, 66, 0.801);
+            color: white;
+        }
+        
+        #comunicativa3 {
+            background-color: rgba(3, 54, 66, 0.603);
+            color: white;
+        }
+        
+        #amorosa1 {
+            background-color: rgb(3, 66, 11);
+            color: white;
+        }
+        
+        #amorosa2 {
+            background-color: rgba(3, 66, 11, 0.801);
+            color: white;
+        }
+        
+        #amorosa3 {
+            background-color: rgba(3, 66, 11, 0.671);
+            color: white;
+        }
+        
+        #ativa1 {
+            background-color: rgb(224, 175, 11);
+            color: white;
+        }
+        
+        #ativa2 {
+            background-color: rgba(224, 174, 11, 0.801);
+            color: white;
+        }
+        
+        #ativa3 {
+            background-color: rgba(224, 174, 11, 0.603);
+            color: white;
+        }
+        
+        #sexualidade1 {
+            background-color: rgb(224, 78, 11);
+            color: white;
+        }
+        
+        #sexualidade2 {
+            background-color: rgba(224, 78, 11, 0.801);
+            color: white;
+        }
+        
+        #sexualidade3 {
+            background-color: rgba(224, 78, 11, 0.603);
+            color: white;
+        }
+        
+        #aterrada1 {
+            background-color: rgb(177, 2, 2);
+            color: white;
+        }
+        
+        #aterrada2 {
+            background-color: rgba(177, 2, 2, 0.801);
+            color: white;
+        }
+        
+        #aterrada3 {
+            background-color: rgba(177, 2, 2, 0.603);
+            color: white;
+        }
+        
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--color-primary-box);
+            width: 100%;
+            height: auto;
+        }
+        
+        footer button {
+            margin-top: 10px;
+        }
