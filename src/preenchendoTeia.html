@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teia Lunar</title>
+    <link rel="stylesheet" type="" href="main.css">
+    <link rel="stylesheet" type="" href="preenchendoTeia.css">
+    <link rel="shortcut icon" type="image/png" href="/images/teia-icone.png">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body id="page-landing">
+    <div class="container">
+
+
+        <fieldset>
+            <legend>Sua Teia Lunar</legend>
+            <div class="preenchendoTeia">
+                <label for="date">Data: </label>
+                <input type="date" id="date" name="date">
+            </div>
+            <h2>Colorindo o seu dia!</h2>
+            <p>Selecione as opções de acordo como você está se sentindo, se bastante intuitiva, por exemplo, selecione a opção em que a cor é mais forte, se estiver se sentindo pouco intuitiva, selecione a opção com a cor mais fraca, ou se estiver se sentindo
+                intuitiva, mas ainda sente que teve dias mais intuitiva, selecione a opção em que a cor está entre a mais forte e a mais fraca. E assim você vai preenchendo todos os campos!</p><br>
+
+            <div class="preenchendoTeia">
+                <h3>Intuitiva </h3>
+                <select class="select">
+              <option selected="selected" id="intuitiva1"><span class="violet_color">bastante</span></option> 
+              <option id="intuitiva2">em alguns momentos</option>  
+              <option id="intuitiva3">pouco</option> 
+              </select>
+            </div>
+
+            <div class="preenchendoTeia">
+
+                <h3>Perceptiva</h3>
+                <select class="select">
+                <option selected="selected" id="perceptiva1"><span class="blue_color">bastante</span></option> 
+                <option id="perceptiva2">em alguns momentos</option>  
+                <option id="perceptiva3"></option> 
+                </select>
+            </div>
+
+            <button type="button" onclick="document.location.href='preenchendoTeia.html'">Preencher Teia</button>
+
+        </fieldset>
+    </div>
+</body>
+
+</html>

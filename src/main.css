@@ -1,0 +1,110 @@
+:root {
+    --color-background-luaCheia: rgb(228, 204, 211);
+    --color-background-luaMing: rgb(117, 85, 92);
+    --color-background-luaCresc: rgb(182, 127, 139);
+    --color-background-luaNova: rgb(61, 39, 52);
+    --color-primary-box: #6b2d26;
+    --color-secondary-box: #836b74;
+    --color-primary-lighter: #9871F5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #3a119b;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #ffffff;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9c98a6;
+    --color-text-base: #b86f03;
+    --color-line-in-white: #e6e6f0;
+    --color-button-hover: #dadaf0;
+    --color-button-text: #ffffff;
+    --color-box-footer: #fafafc;
+    --color-small-info: #c1bccc;
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--color-background-luaCheia);
+    diaplay: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 900;
+    height: 100vh;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-title);
+}
+
+.page-header {
+    background: var(--color-primary-box);
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid var(--color-primary-box);
+    border-radius: 0.8rem;
+}
+
+.tool-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 5px;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: var(--color-button-hover);
+    cursor: pointer;
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+    background: var(--color-secondary-box);
+    box-shadow: 1px 1px 10px black;
+    border-radius: 0.8rem;
+    padding: 10px;
+}
+
+fieldset {
+    display: flex;
+    align-items: column;
+    border: none;
+}
+
+.preenchendoTeia {
+    display: flex;
+}
+
+#intuitivaViolet1 {
+    background-color: rgb(75, 3, 75);
+    color: white;
+}
+
+#intuitivaViolet2 {
+    background-color: rgba(75, 3, 75, 0.801);
+    color: white;
+}
+
+#intuitivaViolet3 {
+    background-color: rgba(75, 3, 75, 0.603);
+    color: white;
+}

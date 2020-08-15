@@ -1,0 +1,46 @@
+        .container {
+            width: 90vw;
+            max-width: 700px;
+            border: 1px solid rgb(94, 94, 3);
+            border-radius: 0.8rem;
+        }
+        
+        fieldset {
+            display: flex;
+            align-items: column;
+            border: none;
+        }
+        
+        .preenchendoTeia {
+            display: flex;
+        }
+        
+        #intuitiva1 {
+            background-color: rgb(75, 3, 75);
+            color: white;
+        }
+        
+        #intuitiva2 {
+            background-color: rgba(75, 3, 75, 0.801);
+            color: white;
+        }
+        
+        #intuitiva3 {
+            background-color: rgba(75, 3, 75, 0.603);
+            color: white;
+        }
+        
+        #perceptiva1 {
+            background-color: rgb(2, 2, 124);
+            color: white;
+        }
+        
+        #perceptiva2 {
+            background-color: rgba(2, 2, 124, 0.801);
+            color: white;
+        }
+        
+        #perceptiva3 {
+            background-color: rgba(2, 2, 124, 0.603);
+            color: white;
+        }
