@@ -1,9 +1,11 @@
         .container {
+            text-align: center;
             width: 90vw;
             max-width: 700px;
-            border: 1px solid rgb(94, 94, 3);
             border-radius: 0.8rem;
         }
+        
+        article {}
         
         fieldset {
             display: flex;
@@ -127,8 +129,9 @@
             background-color: var(--color-primary-box);
             width: 100%;
             height: auto;
-        }
-        
-        footer button {
+            border-radius: 0.8rem;
+            padding: 10px;
             margin-top: 10px;
         }
+        
+        footer button {}

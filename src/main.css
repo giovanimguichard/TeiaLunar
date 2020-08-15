@@ -80,6 +80,7 @@ button:hover {
     max-width: 700px;
     background: var(--color-secondary-box);
     box-shadow: 1px 1px 10px black;
+    border: 1px solid rgb(94, 94, 3);
     border-radius: 0.8rem;
     padding: 10px;
 }
@@ -92,19 +93,4 @@ fieldset {
 
 .preenchendoTeia {
     display: flex;
-}
-
-#intuitivaViolet1 {
-    background-color: rgb(75, 3, 75);
-    color: white;
-}
-
-#intuitivaViolet2 {
-    background-color: rgba(75, 3, 75, 0.801);
-    color: white;
-}
-
-#intuitivaViolet3 {
-    background-color: rgba(75, 3, 75, 0.603);
-    color: white;
 }
