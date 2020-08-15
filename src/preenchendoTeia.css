@@ -135,3 +135,9 @@
         }
         
         footer button {}
+        
+        @media (max-width: 699px) {
+             :root {
+                font-size: 40%;
+            }
+        }

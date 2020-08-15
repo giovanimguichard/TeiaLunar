@@ -94,3 +94,23 @@ fieldset {
 .preenchendoTeia {
     display: flex;
 }
+
+@media (max-width: 699px) {
+     :root {
+        font-size: 40%;
+        max-width: auto;
+    }
+    #mandala {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 300px) {
+     :root {
+        font-size: 30%;
+        max-width: auto;
+    }
+    #mandala {
+        width: 30rem;
+    }
+}
